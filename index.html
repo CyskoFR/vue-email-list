@@ -13,10 +13,7 @@
 <body>
     <div id="app">
         <ul v-show="emails.length >= 10">
-            <li v-for="email in emails">
-                <i class="fa-solid fa-envelope"></i>
-                <span>{{email}}</span>
-            </li>
+            <li v-for="email in emails">{{email}}</li>
         </ul>
     </div>
     <!-- Vue CDN -->
